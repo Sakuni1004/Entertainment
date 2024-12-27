@@ -16,7 +16,7 @@ const LoginScreen = ({ navigation }) => {
         source={require("../assets/girl.png")} // Change path to your image file
         style={styles.welcomeImage}
       />
-      <Text style={styles.started}>The Best Music{"\n"} Collection </Text>
+      <Text style={styles.started}>The Best Music{"\n"}Collection </Text>
       <View style={styles.buttonContainer}>
         <TouchableOpacity
           style={styles.button}
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-evenly",
   },
   button: {
-    backgroundColor: "#8FA39A", // Button background color
+    backgroundColor: "#425537", // Button background color
     width: 141,
     height: 50,
     borderRadius: 20, // Rounded corners
